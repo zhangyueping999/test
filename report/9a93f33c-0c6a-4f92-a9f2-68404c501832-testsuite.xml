@@ -1,0 +1,52 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545639499988" stop="1545639500020">
+  <name>test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545639499988" status="passed" stop="1545639499992">
+      <name>TestLogin.test_a</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2216-MainThread"/>
+        <label name="host" value="LAPTOP-E1308J14"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1545639499996" status="failed" stop="1545639500020">
+      <name>TestLogin.test_b</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_login.TestLogin object at 0x000001B187B33978&gt;
+
+    @allure.step('我是测试登录步骤')
+    def test_b(self):
+        allure.attach('描述', '我是测试步骤001的描述～～～')
+        print("\n222")
+&gt;       assert 0
+E       assert 0
+
+script\test_login.py:13: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2216-MainThread"/>
+        <label name="host" value="LAPTOP-E1308J14"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545639499996" status="failed" stop="1545639499998">
+          <name>我是测试登录步骤</name>
+          <title>我是测试登录步骤</title>
+          <attachments>
+            <attachment source="4d25bb19-6486-477d-b820-9ef41c181778-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "aebf66f8d6e49cb8",
+  "name" : "TestLogin.test_b",
+  "time" : {
+    "start" : 1545639499996,
+    "stop" : 1545639500020,
+    "duration" : 24
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e1422c17951bd8f",
+  "name" : "TestLogin.test_a",
+  "time" : {
+    "start" : 1545639499988,
+    "stop" : 1545639499992,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

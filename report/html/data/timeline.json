@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-E1308J14",
+    "children" : [ {
+      "name" : "2216-MainThread",
+      "children" : [ {
+        "name" : "TestLogin.test_b",
+        "uid" : "aebf66f8d6e49cb8",
+        "parentUid" : "14a88c78dbaa34c1c7164d63e45ddae3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1545639499996,
+          "stop" : 1545639500020,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestLogin.test_a",
+        "uid" : "3e1422c17951bd8f",
+        "parentUid" : "14a88c78dbaa34c1c7164d63e45ddae3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1545639499988,
+          "stop" : 1545639499992,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14a88c78dbaa34c1c7164d63e45ddae3"
+    } ],
+    "uid" : "8d9a17d7096a1cd9961e8d8110807787"
+  } ]
+}
